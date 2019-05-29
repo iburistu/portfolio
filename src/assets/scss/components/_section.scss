@@ -10,6 +10,38 @@
 		&.special {
 			text-align: center;
 		}
+		&.work {
+			ul {
+				text-align: left;
+			}
+			span, p {
+				padding-left: .45em;
+			}
+			span {
+				font-style: italic;
+			}
+			p {
+				margin-top: -.1em
+			}
+		}
+		&.skills {
+			ul {
+				list-style: none;
+				margin-left: 0;
+				padding-left: 0;
+				text-align: left;
+			  }
+			  
+			  li {
+				padding-left: 1em;
+				text-indent: -1em;
+			  }
+			  
+			  li:before {
+				content: "-";
+				padding-right: 5px;
+			  }
+		}
 	}
 
 	header {
