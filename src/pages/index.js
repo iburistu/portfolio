@@ -9,6 +9,10 @@ import Nav from '../components/Nav'
 
 import pic01 from '../assets/images/pic01min.jpg'
 import pic02 from '../assets/images/pic02.svg'
+import microchip from '../assets/images/microchip-solid.svg'
+import python from '../assets/images/python-brands.svg'
+import react from '../assets/images/react-brands.svg'
+import ge from '../assets/images/ge.svg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -32,7 +36,7 @@ class Index extends React.Component {
       <Layout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Linkletter Porfolio</title>
+          <title>Linkletter portfolio</title>
           <link rel="canonical" href="http://linkletter.dev" />
         </Helmet>
         <Header />
@@ -75,54 +79,94 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="second" className="main special skills">
+          <section id="second" className="main special">
             <header className="major">
-              <h2>Technical Skills</h2>
-              <ul>
-                <li>Proficient with Microsoft Windows, macOS &amp; Linux (Ubuntu/Debian &amp; Arch)</li>
-                <li>Fluent in C/C++, Python, JavaScript, MATLAB, ARM Assembly, C#/VB.NET, LaTex</li>
-                <li>Experienced as a fullstack web developer (Flask, Node.js [Express]; React, JQuery; Gatsby, Surge)</li>
-                <li>Experienced  with  database  systems  (Oracle  PL/SQL,  Microsoft  SQL  Server,  Microsoft  Access,  GE Brilliant Manufacturing Suite, Tableau, Vimana) and as a Linux system admin</li>
-                <li>Familiar with Perl, Relay Ladder Logic, Golang</li>
-                <li>Experienced with the development of ChromeOS applications</li>
-                <li>Experienced with OpenMP, MPI, and CUDA</li>
-                <li>Proficient with vi/vim, VSCode, Visual Studio, EAGLE, CA Agile Central (formerly Rally ALM)</li>
-              </ul>
+              <h2>
+                Areas of Expertise
+              </h2>
             </header>
+            <ul className="features">
+              <li>
+                <span className="icon solid major style1 fa"><img src={microchip} style={{height:75,width:75}} alt=""/></span>
+                <h3>
+                  C/C++
+                </h3>
+                <p>
+                  3 years of experience
+                </p>
+                <p>
+                  Microcontroller programming (STM32)
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa"><img src={python} style={{height:75,width:75}} alt=""/></span>
+                <h3>
+                  Python
+                </h3>
+                <p>
+                  2 years experience
+                </p>
+                <p>
+                  Microservices and scripting
+                </p>
+              </li>
+              <li>
+              <span className="icon solid major style1 fa style3"><img src={react} style={{height:75,width:75}} alt=""/></span>
+                <h3>
+                  React
+                </h3>
+                <p>
+                  1 year experience
+                </p>
+                <p>
+                  Internal facing web development and mobile development
+                </p>
+              </li>
+            </ul>
           </section>
 
-          <section id="third" className="main special work">
+          <section id="third" className="main special">
             <header className="major">
               <h2>Work Experience</h2>
-              <ul>
-                <li>GE</li>
-                <span>EID Intern: </span> <br />
-                <span style={{textDecoration:"underline"}}>July 2018 &mdash; March 2019</span>
-                <p>
-                  Lead development on a web application that quantifies employee performance based on numerous metrics; work on an Agile team as a fullstack developer to create at-a-glance digital signage web applications that relay essential manufacturing data to supervisors and machinists from multiple data sources; design a intermediate data layer that consolidates disparate datasources to accelerate application deployment; develop a ChromeOS application that displays up to four webpages simultaneously with remote configuration; develop a program that automatically calculates tool offsets for CNC machine operators and generates trend data
-                </p>
-                
-                <li>University of Maine, College of Electrical and Computer Engineering</li>
-                <span>Research Assistant:</span> <br />
-                <span style={{textDecoration:'underline'}}>January 2019 &mdash; May 2019</span>
-                <p>
-                Translate Arudino C code to STM32 C code for radar devices that determine wild beehive health with digital signal processing
-                </p>
-                
-                <li>University of Maine, College of Electrical and Computer Engineering</li>
-                <span>Teaching Assistant:</span> <br />
-                <span style={{textDecoration:'underline'}}>August 2017 &mdash; Present</span>
-                <p>
-                Work with students to foster understanding and critical thought; solder and test PCBs, utilize Mathematica and MATLAB software, and program ATXMega in C <br />
-                Program STM32L4 boards with C and ARM assembly; interact with hardware using SPI &amp; i2c
-                </p> 
+              <ul className="features">
+                <li>
+                  <span className="icon solid major style1 fa"><img src={ge} style={{height:75,width:75}} alt=""/></span>
+                  <h3>
+                    GE
+                  </h3>
+                  <p>DTLP Intern: Lead Mobile Developer <br /> June 2019 &mdash; Present</p>
+                  
+                  <p>EID Intern: Lead Data Engineer <br /> July 2018 &mdash; March 2019</p>
+                </li>
 
-                <li>University of Maine, Resident Life</li>
-                <span>Resident Assistant:</span> <br />
-                <span style={{textDecoration:'underline'}}>August 2017 &mdash; May 2018</span>
-                <p>
-                Work providing resources to residents, handle housing violations, build community, host programs, act as guide first years, work as a team with other RAs, manage time effectively
-                </p> 
+                <li>
+                  <span className="icon solid major style1 fa"><img src={pic02} style={{height:75,width:75}} alt=""/></span>
+                  <h3>
+                    University of Maine
+                  </h3>
+                  <h4>
+                    College of Electrical and Computer Engineering
+                  </h4>
+                  <p>
+                    Research Assistant: <br /> January 2019 &mdash; May 2019
+                  </p>
+                  <p>
+                    Teaching Assistant: <br /> August 2017 &mdash; Present
+                  </p>
+                </li>
+
+                <li>
+                  <span className="icon solid major style1 fa"><img src={pic02} style={{height:75,width:75}} alt=""/></span>
+                  <h3>
+                    University of Maine
+                  </h3>
+                  <h4>
+                    Resident Life
+                  </h4>
+                  <p>
+                    Resident Assistant: August 2017 &mdash; May 2018
+                  </p>
+                </li>
               </ul>
             </header>
           </section>

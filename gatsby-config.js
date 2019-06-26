@@ -2,9 +2,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: "Z. Linkletter Porfolio",
+    title: "Z. Linkletter portfolio",
     author: "Z. Linkletter",
-    description: "A Gatsby.js porfolio based on Stellar by HTML5 UP"
+    description: "A Gatsby.js portfolio based on Stellar by HTML5 UP"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
