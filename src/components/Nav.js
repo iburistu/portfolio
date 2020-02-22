@@ -18,7 +18,7 @@ const Nav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="second">
-                    <a href="#">Technical Skills</a>
+                    <a href="#">Areas of Expertise</a>
                 </Scroll>
             </li>
             <li>

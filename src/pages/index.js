@@ -36,7 +36,7 @@ class Index extends React.Component {
       <Layout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Linkletter portfolio</title>
+          <title>Z. Linkletter's Portfolio</title>
           <link rel="canonical" href="http://linkletter.dev" />
         </Helmet>
         <Header />
@@ -57,7 +57,7 @@ class Index extends React.Component {
                   <h2>Hi there.  I'm Zack.</h2>
                 </header>
                 <p>
-                  I'm a strong believer in coffee at all times of the day, the power of data in our everyday lives, and that Donkey Kong is the only character worth playing in the Smash games.  I've been told that when I write code it's simultaneously the most terrifying and amazing event to witness.  I'm a go-getter, and when I'm developing solutions I don't take "no" for an answer.  When I get invested in a project, I won't stop until I succeed.
+                  I'm a strong believer in coffee at all times of the day, the power of data in our everyday lives, and that Donkey Kong is the only character worth playing in the Smash games.  I'm a go-getter, and when I'm developing solutions I don't take "no" for an answer.  When I get invested in a project, I won't stop until I succeed.
                 </p>
               </div>
               <span className="image" >
@@ -116,7 +116,7 @@ class Index extends React.Component {
                   React
                 </h3>
                 <p>
-                  1 year experience
+                  2 years experience
                 </p>
                 <p>
                   Internal facing web development and mobile development
@@ -134,7 +134,7 @@ class Index extends React.Component {
                   <h3>
                     GE
                   </h3>
-                  <p>DTLP Intern: Lead Mobile Developer <br /> June 2019 &mdash; Present</p>
+                  <p>DTLP Intern: Lead Mobile Developer <br /> June 2019 &mdash; August 2019</p>
                   
                   <p>EID Intern: Lead Data Engineer <br /> July 2018 &mdash; March 2019</p>
                 </li>

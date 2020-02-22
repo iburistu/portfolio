@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: "Z. Linkletter portfolio",
     author: "Z. Linkletter",
-    description: "A Gatsby.js portfolio based on Stellar by HTML5 UP"
+    description: ""
   },
   plugins: [
     'gatsby-plugin-react-helmet',

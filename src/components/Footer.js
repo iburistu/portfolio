@@ -11,7 +11,7 @@ const Footer = (props) => (
                 <dt>Phone:</dt>
                 <dd>+1 (207) 672-6122</dd>
                 <dt>Email:</dt>
-                <dd><a href="mailto:zachary.linkletter@maine.edu">zachary.linkletter@maine.edu</a></dd>
+                <dd><a href="mailto:zack@linkletter.dev">zack@linkletter.dev</a></dd>
             </dl>
             <ul className="icons">
                 <li><a href="https://github.com/iburistu" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
@@ -22,7 +22,7 @@ const Footer = (props) => (
                 <li><a href="https://blog.linkletter.dev" className="icon fa-comments alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
-        <p className="copyright">&copy; Zachary Linkletter. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">&copy; Zachary Linkletter {new Date().getFullYear().toString()}</p>
     </footer>
 )
 

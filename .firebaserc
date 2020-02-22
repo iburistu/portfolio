@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "portfolio-32f3b"
+    "default": "porfolio-32f3b"
   },
   "targets": {
-    "portfolio-32f3b": {
+    "porfolio-32f3b": {
       "hosting": {
-        "portfolio": [
-          "portfolio-32f3b"
+        "porfolio": [
+          "porfolio-32f3b"
         ]
       }
     }
