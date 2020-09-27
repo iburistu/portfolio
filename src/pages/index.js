@@ -13,6 +13,8 @@ import microchip from '../assets/images/microchip-solid.svg'
 import python from '../assets/images/python-brands.svg'
 import react from '../assets/images/react-brands.svg'
 import ge from '../assets/images/ge.svg'
+import tableau from '../assets/images/tableau-software.svg'
+import database from '../assets/images/database.svg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -57,7 +59,7 @@ class Index extends React.Component {
                   <h2>Hi there.  I'm Zack.</h2>
                 </header>
                 <p>
-                  I'm a strong believer in coffee at all times of the day, the power of data in our everyday lives, and that Donkey Kong is the only character worth playing in the Smash games.  I'm a go-getter, and when I'm developing solutions I don't take "no" for an answer.  When I get invested in a project, I won't stop until I succeed.
+                  I'm a strong believer in coffee at all times of the day, the power of data in our everyday lives, and that Donkey Kong is the only character worth playing in the Smash games.  Currently based out of Atlanta, GA!
                 </p>
               </div>
               <span className="image" >
@@ -107,7 +109,7 @@ class Index extends React.Component {
                   2 years experience
                 </p>
                 <p>
-                  Microservices and scripting
+                  Flask microservices, Keras ML/AI
                 </p>
               </li>
               <li>
@@ -119,7 +121,31 @@ class Index extends React.Component {
                   2 years experience
                 </p>
                 <p>
-                  Internal facing web development and mobile development
+                  Web & mobile development, unit testing, integration testing
+                </p>
+              </li>
+              <li>
+              <span className="icon solid major style1 fa"><img src={database} style={{height:75,width:75}} alt=""/></span>
+                <h3>
+                  SQL
+                </h3>
+                <p>
+                  2 years experience
+                </p>
+                <p>
+                  Database management, administration, report generation
+                </p>
+              </li>
+              <li>
+              <span className="icon solid major style1 fa"><img src={tableau} style={{height:75,width:75}} alt=""/></span>
+                <h3>
+                  Tableau Desktop
+                </h3>
+                <p>
+                  6 months experience
+                </p>
+                <p>
+                  Data wrangling and analytics
                 </p>
               </li>
             </ul>
@@ -134,6 +160,7 @@ class Index extends React.Component {
                   <h3>
                     GE
                   </h3>
+                  <p>Data Analyst for Installed Base and Competitive Intelligence <br /> July 202 &mdash; Present</p>
                   <p>DTLP Intern: Lead Mobile Developer <br /> June 2019 &mdash; August 2019</p>
                   
                   <p>EID Intern: Lead Data Engineer <br /> July 2018 &mdash; March 2019</p>
@@ -151,7 +178,7 @@ class Index extends React.Component {
                     Research Assistant: <br /> January 2019 &mdash; May 2019
                   </p>
                   <p>
-                    Teaching Assistant: <br /> August 2017 &mdash; Present
+                    Teaching Assistant: <br /> August 2017 &mdash; May 2020
                   </p>
                 </li>
 
