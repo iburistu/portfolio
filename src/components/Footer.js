@@ -18,8 +18,8 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/zachary-linkletter-084630162" className ="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
                 <li><a href="https://instagram.com/zackieattackie" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
                 <li><a href="https://www.facebook.com/zachary.linkletter" className ="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-                <li><a href="https://firebasestorage.googleapis.com/v0/b/porfolio-32f3b.appspot.com/o/ZLinkletter_Resume.pdf?alt=media&token=aa6c02fd-f18b-454e-963a-8a480a63c48b" className="icon fa-file-text alt"><span className="label">Resume</span></a></li>
-                <li><a href="https://blog.linkletter.dev" className="icon fa-comments alt"><span className="label">Dribbble</span></a></li>
+                <li><a href="https://linkletter.s3.us-east-1.amazonaws.com/resume.pdf" className="icon fa-file-text alt"><span className="label">Resume</span></a></li>
+                <li><a href="https://besidereal.com" className="icon fa-comments alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
         <p className="copyright">&copy; Zachary Linkletter {new Date().getFullYear().toString()}</p>
