@@ -18,7 +18,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/zachary-linkletter-084630162" className ="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
                 <li><a href="https://instagram.com/zackieattackie" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
                 <li><a href="https://www.facebook.com/zachary.linkletter" className ="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-                <li><a href="https://linkletter.s3.us-east-1.amazonaws.com/resume.pdf" className="icon fa-file-text alt"><span className="label">Resume</span></a></li>
+                <li><a href="https://linkletter.s3.us-east-1.amazonaws.com/public/resume.pdf" className="icon fa-file-text alt"><span className="label">Resume</span></a></li>
                 <li><a href="https://besidereal.com" className="icon fa-comments alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
