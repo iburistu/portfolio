@@ -1,11 +1,11 @@
-import styled from "styled-components"
-import variables from "../../../data/variables"
+import styled from 'styled-components'
+import variables from '../../../data/variables'
 
 export const NavbarLogo = styled.div`
   a {
     color: ${variables.black};
     font-size: 2.3rem;
-    font-family: "GT-Walsheim-Pro-Bold";
+    font-family: 'GT-Walsheim-Pro-Bold';
   }
   @media (max-width: ${variables.breakpointPhone}) {
     display: none;

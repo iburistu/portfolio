@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: "Linkletter",
-  Sitelogo: "#",
-  SiteLogoText: "Linkletter",
-  SiteAuthor: "Zachary Linkletter",
+  SiteTitle: 'Linkletter',
+  Sitelogo: '#',
+  SiteLogoText: 'Linkletter',
+  SiteAuthor: 'Zachary Linkletter',
   SiteDescription: "Z. Linkletter's Personal Blog",
-  defaultDescription: "",
+  defaultDescription: '',
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -45,19 +45,19 @@ module.exports = {
     number_of_repos: 12,
   },
   SiteSocialLinks: {
-    twitter: "",
-    github: "",
-    linkedin: "",
+    twitter: '',
+    github: '',
+    linkedin: '',
   },
   SiteAddress: {
-    city: "",
-    region: "",
-    country: "",
-    zipCode: "",
+    city: '',
+    region: '',
+    country: '',
+    zipCode: '',
   },
   SiteContact: {
-    email: "zack@linkletter.dev",
-    phone: "",
+    email: 'zack@linkletter.dev',
+    phone: '',
   },
-  SiteCopyright: "2021",
+  SiteCopyright: '2021',
 }

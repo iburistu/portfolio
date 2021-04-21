@@ -18,8 +18,9 @@ jobs:
         - run: npm install -g firebase-tools yarn
         - run: yarn install
         - run: yarn build
+          env:
+              GATSBY_GITHUB_API_TOKEN: ${{ secrets.GATSBY_GITHUB_API_TOKEN }}
+              GATSBY_GOOGLE_ANALYTICS: ${{ secrets.GATSBY_GOOGLE_ANALYTICS }}
         - run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
           env: 
               CI: true
-              GATSBY_GITHUB_API_TOKEN: ${{ secrets.GATSBY_GITHUB_API_TOKEN }}
-              GATSBY_GOOGLE_ANALYTICS: ${{ secrets.GATSBY_GOOGLE_ANALYTICS }}

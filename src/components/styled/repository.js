@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import variables from "../../data/variables"
+import styled from 'styled-components'
+import variables from '../../data/variables'
 
 export const RepoGrid = styled.div`
   @media (min-width: ${variables.breakpointPhone}) {
@@ -51,7 +51,7 @@ export const Title = styled.h2`
   margin-bottom: 0;
   margin-top: 0;
   font-size: 1.4rem;
-  font-family: "GT-Walsheim-Pro-Bold";
+  font-family: 'GT-Walsheim-Pro-Bold';
   @media (max-width: ${variables.breakpointPhone}) {
     font-size: 1rem;
   }
@@ -74,7 +74,7 @@ export const FooterItem = styled.span`
   margin-bottom: 1rem;
   font-size: 0.9rem;
   color: #242525;
-  font-family: "GT-Walsheim-Pro-Medium";
+  font-family: 'GT-Walsheim-Pro-Medium';
   vertical-align: middle;
   display: inline-block;
   > * {

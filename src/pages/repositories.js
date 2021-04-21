@@ -1,15 +1,15 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Repository from "../components/works/github"
-import { graphql } from "gatsby"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Repository from '../components/works/github'
+import { graphql } from 'gatsby'
 import {
   RepoGrid,
   RepoInfo,
   Avatar,
   UserInfo,
-} from "../components/styled/repository"
-import { SectionIntro, ContainerLayout } from "../components/common"
+} from '../components/styled/repository'
+import { SectionIntro, ContainerLayout } from '../components/common'
 
 const RepositoryPage = ({ data }) => {
   const {
@@ -34,7 +34,7 @@ const RepositoryPage = ({ data }) => {
                 className="lined-link"
                 activeClassName="active"
               >
-                <span>{resourcePath.split("/")[1]}</span>
+                <span>{resourcePath.split('/')[1]}</span>
               </a>
               <span>{totalCount} followers </span>
             </UserInfo>

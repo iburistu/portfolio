@@ -1,8 +1,8 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import variables from "../data/variables"
-import { ContainerLayout, Title, Intro, SubText } from "../components/common"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import variables from '../data/variables'
+import { ContainerLayout, Title, Intro, SubText } from '../components/common'
 
 const NotFoundPage = () => (
   <Layout>

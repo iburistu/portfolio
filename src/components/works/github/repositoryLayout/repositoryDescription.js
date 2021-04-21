@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text} from "../../../styled/repository"
+import { Text } from '../../../styled/repository'
 
 export const RepositoryDescription = ({ repo }) => (
   <div>
@@ -8,9 +8,9 @@ export const RepositoryDescription = ({ repo }) => (
 
       {repo.homepageUrl && (
         <>
-          {" -"} <a href={repo.homepageUrl}>{repo.homepageUrl}</a>
+          {' -'} <a href={repo.homepageUrl}>{repo.homepageUrl}</a>
         </>
       )}
     </Text>
   </div>
-) 
+)

@@ -1,6 +1,6 @@
-import React from "react"
-import { Star, Key } from "react-feather"
-import { FooterItem, Circle } from "../../../styled/repository"
+import React from 'react'
+import { Star, Key } from 'react-feather'
+import { FooterItem, Circle } from '../../../styled/repository'
 
 export const RepositoryFooter = ({ repo }) => {
   const language = repo.languages.edges[0]
@@ -9,9 +9,9 @@ export const RepositoryFooter = ({ repo }) => {
   let updatedAt = repo.updatedAt.slice(0, 10)
 
   if (daysAgo > -21) {
-    updatedAt = new Intl.RelativeTimeFormat("en", { style: "narrow" }).format(
+    updatedAt = new Intl.RelativeTimeFormat('en', { style: 'narrow' }).format(
       daysAgo,
-      "day"
+      'day'
     )
   }
   return (
@@ -19,10 +19,10 @@ export const RepositoryFooter = ({ repo }) => {
       <FooterItem>
         <Circle
           style={{
-            backgroundColor: language ? language.node.color : "#000",
+            backgroundColor: language ? language.node.color : '#000',
           }}
-        />{" "}
-        {language ? language.node.name : "undefined"}
+        />{' '}
+        {language ? language.node.name : 'undefined'}
       </FooterItem>
       <FooterItem>
         <Star className="star" />
@@ -35,7 +35,7 @@ export const RepositoryFooter = ({ repo }) => {
         </FooterItem>
       )}
       <FooterItem>Updated: {updatedAt}</FooterItem>
-      {repo.homepageUrl && <FooterItem />}{" "}
+      {repo.homepageUrl && <FooterItem />}{' '}
     </div>
   )
 }
