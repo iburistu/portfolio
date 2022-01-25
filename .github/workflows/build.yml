@@ -21,7 +21,7 @@ jobs:
           env:
               GATSBY_GITHUB_API_TOKEN: ${{ secrets.GATSBY_GITHUB_API_TOKEN }}
               GATSBY_GOOGLE_ANALYTICS: ${{ secrets.GATSBY_GOOGLE_ANALYTICS }}
-        - run: aws s3 sync public/ s3://linkletter.dev --no-guess-mime-type --delete
+        - run: aws s3 sync public/ s3://linkletter.dev --delete
           env:
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
