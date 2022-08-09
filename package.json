@@ -34,7 +34,16 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "ansi-html": ">=0.0.8",
+    "cross-fetch": ">=3.1.5",
+    "jpeg-js": ">=0.4.4",
+    "got": ">=11.8.5",
+    "node-fetch": ">=2.6.7",
+    "nth-check": ">=2.0.1",
+    "parse-path": ">=5.0.0",
+    "prettier": "2.0.5",
+    "sanitize-html": ">=2.3.2",
+    "ws": ">=7.4.6"
   },
   "keywords": [
     "gatsby"
