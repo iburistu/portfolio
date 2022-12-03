@@ -5,7 +5,7 @@ export const NavbarLogo = styled.div`
   a {
     color: ${variables.black};
     font-size: 2.3rem;
-    font-family: 'GT-Walsheim-Pro-Bold';
+    font-family: 'Atkinson-Hyperlegible-Bold';
   }
   @media (max-width: ${variables.breakpointPhone}) {
     display: none;

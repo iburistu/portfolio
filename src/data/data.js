@@ -1,7 +1,7 @@
 module.exports = {
-  SiteTitle: 'Linkletter',
+  SiteTitle: 'Zachary Linkletter',
   Sitelogo: '#',
-  SiteLogoText: 'Linkletter',
+  SiteLogoText: 'Zachary Linkletter',
   SiteAuthor: 'Zachary Linkletter',
   SiteDescription: "Z. Linkletter's Personal Blog",
   defaultDescription: '',
@@ -59,5 +59,5 @@ module.exports = {
     email: 'zack@linkletter.dev',
     phone: '',
   },
-  SiteCopyright: '2021',
+  SiteCopyright: '2022',
 }

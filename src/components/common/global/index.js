@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%; /* 2 */
     body {
       font-size: 14px;
-      font-family: 'GT-Walsheim-Pro-Regular';
+      font-family: 'Atkinson-Hyperlegible-Regular';
       margin: 0;
     }
     main {
@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
     b,
     strong {
       font-weight: bolder;
-      font-family: 'GT-Walsheim-Pro-Bold';
+      font-family: 'Atkinson-Hyperlegible-Bold';
     }
     small {
       font-size: 80%;
