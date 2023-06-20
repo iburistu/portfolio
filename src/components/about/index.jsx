@@ -24,7 +24,7 @@ const About = () => {
               <Avatar
                 fluid={data.placeholderImage.childImageSharp.fluid}
                 alt="user photo"
-                title="Near Ponce City Market, ATL. Look at that lil baby stache!"
+                title="On a bridge in Zurich. Most expensive city I have ever visited!"
               />
               <SubTitle>Fullstack & Embedded Engineer</SubTitle>
             </div>
@@ -32,14 +32,14 @@ const About = () => {
               <Title> Hello, I’m Zack! </Title>
               <Text>
                 {' '}
-                I'm a fullstack and embedded developer currently working on IoT
+                I'm a fullstack and embedded developer currently working on manufacturing IoT
                 at scale.{' '}
               </Text>
               <Text>
                 {' '}
                 I'm a strong believer in coffee at all times of the day, the
-                power of data in our everyday lives, and that Donkey Kong is the
-                only character worth playing in the Smash games.
+                power of genuine social connection, and that Donkey Kong is the
+                only character worth playing in Smash.
               </Text>
               <Text> Currently based out of Bangor, ME. </Text>
               <ResumeButton
